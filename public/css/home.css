@@ -1,0 +1,93 @@
+/* HOME */
+.home {
+    display: flex;
+    padding: 50px 40px 50px 60px;
+    gap: 10%;
+    font-size: 1.2rem;
+    color: var(--colorLetrasClaras);
+    height: 100%;
+}
+/* ASIDE */
+.home__aside{
+}
+
+/* ASIDE - NAV */
+.home__aside-nav{
+
+}
+
+.home__aside-nav ul{
+
+}
+
+.home__aside-nav ul li{
+
+}
+
+
+/* ENTRADAS */
+.home__entradas{
+padding-left: 30px;
+font-size: 17px;
+
+line-height: 25px;
+
+height: 100%;
+
+border-left: solid 2px var(--colorGrisFooter);
+}
+
+.home__entradas h3{
+
+padding-top: 10px;
+
+
+
+padding-bottom: 35px;
+
+color: var(--colorLetras);
+
+font-size: 25px;
+}
+
+/* PLATOS CON IMAGEN */
+.home__entradas-platos section div{
+    width: 300px;
+}
+
+.home__entradas-platos section img{
+    height: 200px;
+    margin-left: 15px;
+} 
+
+.home__entradas img{
+    border: solid 1px;
+}
+
+
+/* ENTRADAS PLATOS */
+.home__entradas-platos{
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    padding-left: 20px;
+}
+
+.home__entradas article{
+    margin-bottom: 35px;
+}
+
+.home__entradas article b{
+display: block;
+color: var(--colorLetras);
+}
+.home__entradas a {
+    font-weight: 600;
+    color: var(--colorLetras);
+}
+.home__entradas-platos section{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

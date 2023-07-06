@@ -1,0 +1,37 @@
+/* FOOTER */
+.footer {
+  padding-left: 30px;
+  display: flex;
+  background-color: #dfdada;
+  height: 180px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px grey;
+  padding-right: 50px;
+}
+
+/* FOOTER LOGO */
+.footer-logo {
+}
+
+.footer-logo img {
+  width: 40%;
+}
+
+/* FOOTER NAV */
+.footer-nav {
+  color: var(--colorBlanco);
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+.footer-nav h4 {
+  padding-bottom: 25px;
+}
+
+.footer-nave ul {
+}
+
+.footer-nav ul li {
+}
