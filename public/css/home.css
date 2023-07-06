@@ -1,3 +1,20 @@
+/* HEADER */
+.header{
+height: 100px;
+margin: 0 40px 0 60px;
+padding-bottom: 110px;
+border-bottom: solid 4px var(--colorGrisFooter);
+}
+
+.header h1 {
+
+}
+
+.header h2{
+margin-top: 20px;
+font-size: 28px;
+}
+
 /* HOME */
 .home {
     display: flex;
@@ -13,29 +30,24 @@
 
 /* ASIDE - NAV */
 .home__aside-nav{
-
 }
 
 .home__aside-nav ul{
-
+line-height: 45px;
+width: 200px;
+font-size: 22px;
 }
 
 .home__aside-nav ul li{
+}
 
+.home__aside-nave--dobleRenglon{
+    line-height: 5px; 
 }
 
 
 /* ENTRADAS */
-.home__entradas{
-padding-left: 30px;
-font-size: 17px;
-
-line-height: 25px;
-
-height: 100%;
-
-border-left: solid 2px var(--colorGrisFooter);
-}
+.home__entradas{padding-left: 40px;font-size: 17px;line-height: 25px;height: 100%;border-left: solid 4px var(--colorGrisFooter);}
 
 .home__entradas h3{
 
@@ -56,12 +68,12 @@ font-size: 25px;
 }
 
 .home__entradas-platos section img{
-    height: 200px;
+    height: 225px;
     margin-left: 15px;
 } 
 
 .home__entradas img{
-    border: solid 1px;
+    border: solid 1px var(--colorGrisFooter);
 }
 
 
@@ -69,7 +81,6 @@ font-size: 25px;
 .home__entradas-platos{
     display: flex;
     flex-direction: column;
-    width: 630px;
     padding-left: 20px;
 }
 
